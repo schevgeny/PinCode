@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PinCode_Example' do
+  pod 'PinCode', :path => '../'
+
+  target 'PinCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
