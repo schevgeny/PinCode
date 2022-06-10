@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'PinCode'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PinCode.'
+  s.summary          = 'PinCode for swift app'
+  s.swift_versions = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency  'BiometricAuthentication'
+  
 end
