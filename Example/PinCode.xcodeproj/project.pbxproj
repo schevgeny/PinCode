@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013A3C4A4C7A7E29D199E00C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		013A3C4A4C7A7E29D199E00C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1B021A7DF6AA17CB868A04A8 /* Pods_PinCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2254839EBE495867C348579E /* Pods-PinCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinCode_Example.debug.xcconfig"; path = "Target Support Files/Pods-PinCode_Example/Pods-PinCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		22EBAF5C8247AB8B92BCA778 /* PinCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PinCode.podspec; path = ../PinCode.podspec; sourceTree = "<group>"; };
-		562F101E72A58FAA4501D177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		22EBAF5C8247AB8B92BCA778 /* PinCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PinCode.podspec; path = ../PinCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		562F101E72A58FAA4501D177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PinCode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinCode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				B63760FB14260DBBD777B6D7 /* Pods-PinCode_Tests.debug.xcconfig */,
 				A1E87029595054F09173FDD8 /* Pods-PinCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,10 +313,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PinCode_Example/Pods-PinCode_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework",
 				"${BUILT_PRODUCTS_DIR}/PinCode/PinCode.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BiometricAuthentication.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinCode.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+framework module PinCode {
+  umbrella header "PinCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

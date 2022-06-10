@@ -1,0 +1,23 @@
+PODS:
+  - BiometricAuthentication (3.1.2)
+  - PinCode (0.1.0):
+    - BiometricAuthentication
+
+DEPENDENCIES:
+  - PinCode (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BiometricAuthentication
+
+EXTERNAL SOURCES:
+  PinCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BiometricAuthentication: 36445f3ab77699489f91995bed887be89890afac
+  PinCode: f3b99a8c1f18d7bbaa70dafad1fca6a8d52c1161
+
+PODFILE CHECKSUM: b0dab26b811cb51ea1c24c2ee872d601d584cbd5
+
+COCOAPODS: 1.11.2

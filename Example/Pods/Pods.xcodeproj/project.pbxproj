@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A99FF4C86119338F30DA531D0871EB /* AppLockerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F5EB0FF328E939AE4F8229CC508390 /* AppLockerUI.swift */; };
+		0AA1D4F53753773B8094A3E6B28830F9 /* Pods-PinCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 409DB2BF61188D858166A2B4133CAF25 /* Pods-PinCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1582C0516AAD8020053A1C9BC9B3292C /* PinCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2275FF58E2B4E6611D897FA0E3EE0EFF /* PinCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159C0C64072241A0B0EFA68970E8DFE3 /* Pods-PinCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 709178B2F8628C02B5089F5547D19256 /* Pods-PinCode_Example-dummy.m */; };
+		242DAAED66730B45F4382EFA1DC6271B /* BioMetricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA210216EECA967E6AB3A6450A1FEF /* BioMetricAuthenticator.swift */; };
+		271A524076194CFC5D541BFF6A83E3CB /* PinCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F8BEB27546D9AD1FC0BD96C3C2724 /* PinCode-dummy.m */; };
+		3208EE7902F16CBCC875FB59840D467D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		34F5F6C6D3E2A10E1BDED8F3CEF26C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50DA96658ECB6C4574464B952A30665E /* BiometricAuthenticationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4691725066FBDF4E8C0B2C81AB796 /* BiometricAuthenticationConstants.swift */; };
+		5745C6F81CF1EF0F08E25FC9E6C555B3 /* AuthenticationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E878B189A2B7BE8707FECB3B3E794EF0 /* AuthenticationErrors.swift */; };
+		5A1B208A3E3E21642735D1EA9BDE908C /* LockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2E096AF0C9116BF4FEF88BF38EA21 /* LockManager.swift */; };
+		61A8A6257C1936277DD0776C1E68DEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		828B79204CAEEB7FE14841CEEB9A743B /* Pods-PinCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAC2811FEBEC321B3FC036AC9EFBFEF /* Pods-PinCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82C3AA01E195F109CE0E4F9BCB274EAB /* BiometricAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46075EE6EBB6109AF207EDC308D423A3 /* BiometricAuthentication-dummy.m */; };
+		A64220805DD72618BBBF36AF76D497D5 /* BiometricAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE24C324CC954A8FE3CEA1287DA0D68 /* BiometricAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75641BD73A536ED723658F2F977B524 /* AppLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16E58F170B051A170CF1333D2D065E /* AppLocker.swift */; };
+		D575A99EDF441602648650866966C0AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F3492F2D163133253027CC61FAB1C0D0 /* Pods-PinCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47570B700867B6F6A133C064FB45C151 /* Pods-PinCode_Tests-dummy.m */; };
+		FE9E959A6435214DEA66C71CA27F841D /* AppLocker.xib in Sources */ = {isa = PBXBuildFile; fileRef = D3DF690B101642C4B3B9219B7640378A /* AppLocker.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B3F9CD4A518AA9C7A5656098648EC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF797B133BE0838BB34A1DDD2E19679A;
+			remoteInfo = BiometricAuthentication;
+		};
+		A563CE905547CB8AE1787A85CC8FCFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BDC8915820C205EF2A42926A2DAD3F;
+			remoteInfo = "Pods-PinCode_Example";
+		};
+		A7F4EA5C62674B6CC00B4D9D60F67F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF797B133BE0838BB34A1DDD2E19679A;
+			remoteInfo = BiometricAuthentication;
+		};
+		F249929435BE409829BC86627F6D5D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B72DC468E23C6EDC07F5E5CE328E34;
+			remoteInfo = PinCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF647676B1C5EB7212F00C26CA9FCDA /* Pods-PinCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinCode_Example.modulemap"; sourceTree = "<group>"; };
+		16B524D08F67B73272607EDB6548FDCD /* BiometricAuthentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BiometricAuthentication-Info.plist"; sourceTree = "<group>"; };
+		18D4403362091661BF4586B4FFD94499 /* PinCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinCode-Info.plist"; sourceTree = "<group>"; };
+		2275FF58E2B4E6611D897FA0E3EE0EFF /* PinCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCode-umbrella.h"; sourceTree = "<group>"; };
+		279425AF228ADD925216357EB9DAE2F9 /* PinCode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinCode; path = PinCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE24C324CC954A8FE3CEA1287DA0D68 /* BiometricAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthentication-umbrella.h"; sourceTree = "<group>"; };
+		2F79DF480D2296F5654C5CB5A8859F4C /* Pods-PinCode_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PinCode_Example"; path = Pods_PinCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A2E096AF0C9116BF4FEF88BF38EA21 /* LockManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockManager.swift; path = PinCode/Classes/LockManager.swift; sourceTree = "<group>"; };
+		3727F2203250521424CCF5D7C007596F /* Pods-PinCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinCode_Tests.modulemap"; sourceTree = "<group>"; };
+		409DB2BF61188D858166A2B4133CAF25 /* Pods-PinCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinCode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		447C5EFEDF6C9172466DB247873FF58C /* BiometricAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BiometricAuthentication.debug.xcconfig; sourceTree = "<group>"; };
+		46075EE6EBB6109AF207EDC308D423A3 /* BiometricAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BiometricAuthentication-dummy.m"; sourceTree = "<group>"; };
+		46398BD28A1D0BAD59E5E57FE88AFAD9 /* Pods-PinCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47570B700867B6F6A133C064FB45C151 /* Pods-PinCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		47F5EB0FF328E939AE4F8229CC508390 /* AppLockerUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLockerUI.swift; sourceTree = "<group>"; };
+		4EEDAB31F22381FBF31B840BB97B53B8 /* PinCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinCode.modulemap; sourceTree = "<group>"; };
+		50DC586B942668F595A7E59092830FCC /* BiometricAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BiometricAuthentication.modulemap; sourceTree = "<group>"; };
+		5F9F8BEB27546D9AD1FC0BD96C3C2724 /* PinCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinCode-dummy.m"; sourceTree = "<group>"; };
+		65CE9AE327C87C5FF7571F8D84CFC2C9 /* PinCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PinCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66F147BC575765E01989FC136853CF16 /* BiometricAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BiometricAuthentication.release.xcconfig; sourceTree = "<group>"; };
+		6870A86C900089A42757C622F03484D6 /* Pods-PinCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		709178B2F8628C02B5089F5547D19256 /* Pods-PinCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinCode_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D2D695DEBD5E9BAAC968ACCF3880CB1 /* Pods-PinCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCD7310673528C6991BDDAA955B025D /* Pods-PinCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D6744EB8F82ACDFA76A6968B000CC82 /* BiometricAuthentication */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BiometricAuthentication; path = BiometricAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05D2E10C593BF6EC9636A9CF9E560CA /* PinCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCode.release.xcconfig; sourceTree = "<group>"; };
+		B1E7B95D954936E39496730921A2214E /* Pods-PinCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8EB6352609E2D23D45681AFE6B2061D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BF45CA83F92E982A4017F73E1C546E89 /* Pods-PinCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinCode_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D05B16E4FF2988F8EA0A0D3982A147AC /* PinCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCode.debug.xcconfig; sourceTree = "<group>"; };
+		D3CA210216EECA967E6AB3A6450A1FEF /* BioMetricAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioMetricAuthenticator.swift; path = BiometricAuthentication/BiometricAuthentication/Authentication/BioMetricAuthenticator.swift; sourceTree = "<group>"; };
+		D3DF690B101642C4B3B9219B7640378A /* AppLocker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AppLocker.xib; sourceTree = "<group>"; };
+		DAE6B7EB3B26ED0D26ACB4A0DD95DE1F /* Pods-PinCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB16E58F170B051A170CF1333D2D065E /* AppLocker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLocker.swift; sourceTree = "<group>"; };
+		E878B189A2B7BE8707FECB3B3E794EF0 /* AuthenticationErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationErrors.swift; path = BiometricAuthentication/BiometricAuthentication/Authentication/AuthenticationErrors.swift; sourceTree = "<group>"; };
+		EBD85D1A0C4769AEF5EC26CD9FAAC094 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ECAC2811FEBEC321B3FC036AC9EFBFEF /* Pods-PinCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinCode_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECB4691725066FBDF4E8C0B2C81AB796 /* BiometricAuthenticationConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiometricAuthenticationConstants.swift; path = BiometricAuthentication/BiometricAuthentication/Constants/BiometricAuthenticationConstants.swift; sourceTree = "<group>"; };
+		ED3F814DCCCB0DD9A2D894EA52356BA0 /* BiometricAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthentication-prefix.pch"; sourceTree = "<group>"; };
+		F377714D3871753BC4DBA1A35D89025B /* Pods-PinCode_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCode_Tests-Info.plist"; sourceTree = "<group>"; };
+		F753732589E1747A0C159520989908A7 /* Pods-PinCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F297301EF99A0319C46969E3C4B9F4 /* Pods-PinCode_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PinCode_Tests"; path = Pods_PinCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA713CE4071AA41346579A95AB7A73FD /* Pods-PinCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD4004A61DAAF763FB056D13FD3F789A /* Pods-PinCode_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCode_Example-Info.plist"; sourceTree = "<group>"; };
+		FFE4268A59AD301FF6F5D0A539D81354 /* PinCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCode-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4304B2DEBAB96859DAA36F3839F3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D575A99EDF441602648650866966C0AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7578194902D89A235292266BC6938B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3208EE7902F16CBCC875FB59840D467D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E8AAD996074DE77903913905EA408A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A8A6257C1936277DD0776C1E68DEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AAE3F6BB42314669F0221A661A418B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F5F6C6D3E2A10E1BDED8F3CEF26C8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A088B8EE53DBFFC938DBC1AAC64D2AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2020FEBF34D25C4CCA015CD4B7F2389C /* Pods-PinCode_Example */,
+				B7120DC95517C3DD851DD7E70EBE2730 /* Pods-PinCode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11285C8C38433B6BBBAABB8F276763F3 /* BiometricAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				E878B189A2B7BE8707FECB3B3E794EF0 /* AuthenticationErrors.swift */,
+				ECB4691725066FBDF4E8C0B2C81AB796 /* BiometricAuthenticationConstants.swift */,
+				D3CA210216EECA967E6AB3A6450A1FEF /* BioMetricAuthenticator.swift */,
+				78DAAA5598C3673254F16C67AD4ED39F /* Support Files */,
+			);
+			name = BiometricAuthentication;
+			path = BiometricAuthentication;
+			sourceTree = "<group>";
+		};
+		2020FEBF34D25C4CCA015CD4B7F2389C /* Pods-PinCode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0CF647676B1C5EB7212F00C26CA9FCDA /* Pods-PinCode_Example.modulemap */,
+				DAE6B7EB3B26ED0D26ACB4A0DD95DE1F /* Pods-PinCode_Example-acknowledgements.markdown */,
+				B1E7B95D954936E39496730921A2214E /* Pods-PinCode_Example-acknowledgements.plist */,
+				709178B2F8628C02B5089F5547D19256 /* Pods-PinCode_Example-dummy.m */,
+				BF45CA83F92E982A4017F73E1C546E89 /* Pods-PinCode_Example-frameworks.sh */,
+				FD4004A61DAAF763FB056D13FD3F789A /* Pods-PinCode_Example-Info.plist */,
+				ECAC2811FEBEC321B3FC036AC9EFBFEF /* Pods-PinCode_Example-umbrella.h */,
+				8D2D695DEBD5E9BAAC968ACCF3880CB1 /* Pods-PinCode_Example.debug.xcconfig */,
+				6870A86C900089A42757C622F03484D6 /* Pods-PinCode_Example.release.xcconfig */,
+			);
+			name = "Pods-PinCode_Example";
+			path = "Target Support Files/Pods-PinCode_Example";
+			sourceTree = "<group>";
+		};
+		223605C9AC26C07AC7855E619E462E7E /* AppLock */ = {
+			isa = PBXGroup;
+			children = (
+				DB16E58F170B051A170CF1333D2D065E /* AppLocker.swift */,
+				D3DF690B101642C4B3B9219B7640378A /* AppLocker.xib */,
+				47F5EB0FF328E939AE4F8229CC508390 /* AppLockerUI.swift */,
+			);
+			name = AppLock;
+			path = PinCode/Classes/AppLock;
+			sourceTree = "<group>";
+		};
+		2DC16B67FBEA0A832F14FA6BEF189A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6744EB8F82ACDFA76A6968B000CC82 /* BiometricAuthentication */,
+				279425AF228ADD925216357EB9DAE2F9 /* PinCode */,
+				2F79DF480D2296F5654C5CB5A8859F4C /* Pods-PinCode_Example */,
+				F7F297301EF99A0319C46969E3C4B9F4 /* Pods-PinCode_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B87B4C27CBFE8E22F39A2499C309047 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92D0708C4B244D657DEADB42805E666A /* PinCode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78DAAA5598C3673254F16C67AD4ED39F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50DC586B942668F595A7E59092830FCC /* BiometricAuthentication.modulemap */,
+				46075EE6EBB6109AF207EDC308D423A3 /* BiometricAuthentication-dummy.m */,
+				16B524D08F67B73272607EDB6548FDCD /* BiometricAuthentication-Info.plist */,
+				ED3F814DCCCB0DD9A2D894EA52356BA0 /* BiometricAuthentication-prefix.pch */,
+				2EE24C324CC954A8FE3CEA1287DA0D68 /* BiometricAuthentication-umbrella.h */,
+				447C5EFEDF6C9172466DB247873FF58C /* BiometricAuthentication.debug.xcconfig */,
+				66F147BC575765E01989FC136853CF16 /* BiometricAuthentication.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BiometricAuthentication";
+			sourceTree = "<group>";
+		};
+		91E87C0F03ACAD919D9D57DD1951E98D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11285C8C38433B6BBBAABB8F276763F3 /* BiometricAuthentication */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92D0708C4B244D657DEADB42805E666A /* PinCode */ = {
+			isa = PBXGroup;
+			children = (
+				33A2E096AF0C9116BF4FEF88BF38EA21 /* LockManager.swift */,
+				223605C9AC26C07AC7855E619E462E7E /* AppLock */,
+				F2FE6205CC9D962BB289F9E5A93AF69E /* Pod */,
+				CC37C7D07F66C0A73442A34450AB1E01 /* Support Files */,
+			);
+			name = PinCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B7120DC95517C3DD851DD7E70EBE2730 /* Pods-PinCode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3727F2203250521424CCF5D7C007596F /* Pods-PinCode_Tests.modulemap */,
+				46398BD28A1D0BAD59E5E57FE88AFAD9 /* Pods-PinCode_Tests-acknowledgements.markdown */,
+				FA713CE4071AA41346579A95AB7A73FD /* Pods-PinCode_Tests-acknowledgements.plist */,
+				47570B700867B6F6A133C064FB45C151 /* Pods-PinCode_Tests-dummy.m */,
+				F377714D3871753BC4DBA1A35D89025B /* Pods-PinCode_Tests-Info.plist */,
+				409DB2BF61188D858166A2B4133CAF25 /* Pods-PinCode_Tests-umbrella.h */,
+				F753732589E1747A0C159520989908A7 /* Pods-PinCode_Tests.debug.xcconfig */,
+				9BCD7310673528C6991BDDAA955B025D /* Pods-PinCode_Tests.release.xcconfig */,
+			);
+			name = "Pods-PinCode_Tests";
+			path = "Target Support Files/Pods-PinCode_Tests";
+			sourceTree = "<group>";
+		};
+		CC37C7D07F66C0A73442A34450AB1E01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EEDAB31F22381FBF31B840BB97B53B8 /* PinCode.modulemap */,
+				5F9F8BEB27546D9AD1FC0BD96C3C2724 /* PinCode-dummy.m */,
+				18D4403362091661BF4586B4FFD94499 /* PinCode-Info.plist */,
+				FFE4268A59AD301FF6F5D0A539D81354 /* PinCode-prefix.pch */,
+				2275FF58E2B4E6611D897FA0E3EE0EFF /* PinCode-umbrella.h */,
+				D05B16E4FF2988F8EA0A0D3982A147AC /* PinCode.debug.xcconfig */,
+				A05D2E10C593BF6EC9636A9CF9E560CA /* PinCode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PinCode";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4B87B4C27CBFE8E22F39A2499C309047 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				91E87C0F03ACAD919D9D57DD1951E98D /* Pods */,
+				2DC16B67FBEA0A832F14FA6BEF189A84 /* Products */,
+				0A088B8EE53DBFFC938DBC1AAC64D2AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2FE6205CC9D962BB289F9E5A93AF69E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B8EB6352609E2D23D45681AFE6B2061D /* LICENSE */,
+				65CE9AE327C87C5FF7571F8D84CFC2C9 /* PinCode.podspec */,
+				EBD85D1A0C4769AEF5EC26CD9FAAC094 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		188F41525F8D684B9297EE33B4E8A0FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA1D4F53753773B8094A3E6B28830F9 /* Pods-PinCode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFEE8015EE64E3000ED62F1800D05E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828B79204CAEEB7FE14841CEEB9A743B /* Pods-PinCode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76F306FEE2F51F0508EADC310E9FF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1582C0516AAD8020053A1C9BC9B3292C /* PinCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B707B372136427F8F76443811CAD20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64220805DD72618BBBF36AF76D497D5 /* BiometricAuthentication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		308E053EBAA50484CD0583FBF99FF84C /* Pods-PinCode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B779C2A67BD99DF5878A0C9D49F08EEF /* Build configuration list for PBXNativeTarget "Pods-PinCode_Tests" */;
+			buildPhases = (
+				188F41525F8D684B9297EE33B4E8A0FD /* Headers */,
+				1BA36D0DB2A9F680EA7DE8350806F767 /* Sources */,
+				F9AAE3F6BB42314669F0221A661A418B /* Frameworks */,
+				65DF0E34ED93FCC04E716D53092C3DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D87DCD5FE1DFB6A99B1C6633584916 /* PBXTargetDependency */,
+			);
+			name = "Pods-PinCode_Tests";
+			productName = Pods_PinCode_Tests;
+			productReference = F7F297301EF99A0319C46969E3C4B9F4 /* Pods-PinCode_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0BDC8915820C205EF2A42926A2DAD3F /* Pods-PinCode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F59D1F89EE83D66EFFE811B9C035423 /* Build configuration list for PBXNativeTarget "Pods-PinCode_Example" */;
+			buildPhases = (
+				2CFEE8015EE64E3000ED62F1800D05E2 /* Headers */,
+				4EABDC04D8CE8F9C38CF735ED46B8780 /* Sources */,
+				7578194902D89A235292266BC6938B0E /* Frameworks */,
+				D21C37DD7C4723380BD7800BA04FCF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021F5479E2907E5E188BC92C72DA8101 /* PBXTargetDependency */,
+				D510CEE2E28034B23C01FCC54E5A0474 /* PBXTargetDependency */,
+			);
+			name = "Pods-PinCode_Example";
+			productName = Pods_PinCode_Example;
+			productReference = 2F79DF480D2296F5654C5CB5A8859F4C /* Pods-PinCode_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9B72DC468E23C6EDC07F5E5CE328E34 /* PinCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3592510BC92E7DC1E492EBB7C65698 /* Build configuration list for PBXNativeTarget "PinCode" */;
+			buildPhases = (
+				6C76F306FEE2F51F0508EADC310E9FF1 /* Headers */,
+				B66EBD441239F151882185B99B77DBAE /* Sources */,
+				5C4304B2DEBAB96859DAA36F3839F3F3 /* Frameworks */,
+				DF38E1C23DEAA38653693E7CEBA0B6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC383B17A0E4FA69F739ED7C8D82B01B /* PBXTargetDependency */,
+			);
+			name = PinCode;
+			productName = PinCode;
+			productReference = 279425AF228ADD925216357EB9DAE2F9 /* PinCode */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF797B133BE0838BB34A1DDD2E19679A /* BiometricAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AFBD5FF7CA9C91BE93170D8737D23F /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */;
+			buildPhases = (
+				83B707B372136427F8F76443811CAD20 /* Headers */,
+				D1A5106A5B49D4F8FD7BD6E693DE2E7A /* Sources */,
+				A1E8AAD996074DE77903913905EA408A /* Frameworks */,
+				E223300CF2D7D46C030D0C7B6DB27645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiometricAuthentication;
+			productName = BiometricAuthentication;
+			productReference = 9D6744EB8F82ACDFA76A6968B000CC82 /* BiometricAuthentication */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2DC16B67FBEA0A832F14FA6BEF189A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF797B133BE0838BB34A1DDD2E19679A /* BiometricAuthentication */,
+				E9B72DC468E23C6EDC07F5E5CE328E34 /* PinCode */,
+				E0BDC8915820C205EF2A42926A2DAD3F /* Pods-PinCode_Example */,
+				308E053EBAA50484CD0583FBF99FF84C /* Pods-PinCode_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DF0E34ED93FCC04E716D53092C3DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21C37DD7C4723380BD7800BA04FCF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38E1C23DEAA38653693E7CEBA0B6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E223300CF2D7D46C030D0C7B6DB27645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA36D0DB2A9F680EA7DE8350806F767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3492F2D163133253027CC61FAB1C0D0 /* Pods-PinCode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EABDC04D8CE8F9C38CF735ED46B8780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159C0C64072241A0B0EFA68970E8DFE3 /* Pods-PinCode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66EBD441239F151882185B99B77DBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75641BD73A536ED723658F2F977B524 /* AppLocker.swift in Sources */,
+				FE9E959A6435214DEA66C71CA27F841D /* AppLocker.xib in Sources */,
+				00A99FF4C86119338F30DA531D0871EB /* AppLockerUI.swift in Sources */,
+				5A1B208A3E3E21642735D1EA9BDE908C /* LockManager.swift in Sources */,
+				271A524076194CFC5D541BFF6A83E3CB /* PinCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A5106A5B49D4F8FD7BD6E693DE2E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5745C6F81CF1EF0F08E25FC9E6C555B3 /* AuthenticationErrors.swift in Sources */,
+				82C3AA01E195F109CE0E4F9BCB274EAB /* BiometricAuthentication-dummy.m in Sources */,
+				50DA96658ECB6C4574464B952A30665E /* BiometricAuthenticationConstants.swift in Sources */,
+				242DAAED66730B45F4382EFA1DC6271B /* BioMetricAuthenticator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021F5479E2907E5E188BC92C72DA8101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BiometricAuthentication;
+			target = EF797B133BE0838BB34A1DDD2E19679A /* BiometricAuthentication */;
+			targetProxy = 0B3F9CD4A518AA9C7A5656098648EC27 /* PBXContainerItemProxy */;
+		};
+		D3D87DCD5FE1DFB6A99B1C6633584916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PinCode_Example";
+			target = E0BDC8915820C205EF2A42926A2DAD3F /* Pods-PinCode_Example */;
+			targetProxy = A563CE905547CB8AE1787A85CC8FCFAC /* PBXContainerItemProxy */;
+		};
+		D510CEE2E28034B23C01FCC54E5A0474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinCode;
+			target = E9B72DC468E23C6EDC07F5E5CE328E34 /* PinCode */;
+			targetProxy = F249929435BE409829BC86627F6D5D52 /* PBXContainerItemProxy */;
+		};
+		EC383B17A0E4FA69F739ED7C8D82B01B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BiometricAuthentication;
+			target = EF797B133BE0838BB34A1DDD2E19679A /* BiometricAuthentication */;
+			targetProxy = A7F4EA5C62674B6CC00B4D9D60F67F56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FFDD9F9F399A8C9AE7DE2D0907787C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F147BC575765E01989FC136853CF16 /* BiometricAuthentication.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthentication/BiometricAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthentication/BiometricAuthentication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthentication/BiometricAuthentication.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthentication;
+				PRODUCT_NAME = BiometricAuthentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		269AD948183BCEE0066BAE99CFD0063E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2D695DEBD5E9BAAC968ACCF3880CB1 /* Pods-PinCode_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCode_Example/Pods-PinCode_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinCode_Example/Pods-PinCode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5999F3A1C9692DF9BEA53293AF0CFB99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCD7310673528C6991BDDAA955B025D /* Pods-PinCode_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCode_Tests/Pods-PinCode_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinCode_Tests/Pods-PinCode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D1286F88150C09CA403ACBD38CC2783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F753732589E1747A0C159520989908A7 /* Pods-PinCode_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCode_Tests/Pods-PinCode_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinCode_Tests/Pods-PinCode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BC7FAA28B5DDC4746D395C1E80CE15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05D2E10C593BF6EC9636A9CF9E560CA /* PinCode.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinCode/PinCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCode/PinCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinCode/PinCode.modulemap";
+				PRODUCT_MODULE_NAME = PinCode;
+				PRODUCT_NAME = PinCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E851B2251F354BE986ED9C9FB417C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05B16E4FF2988F8EA0A0D3982A147AC /* PinCode.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinCode/PinCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCode/PinCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinCode/PinCode.modulemap";
+				PRODUCT_MODULE_NAME = PinCode;
+				PRODUCT_NAME = PinCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8B8F5C92EBA45B3568EB1C13C2393C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6870A86C900089A42757C622F03484D6 /* Pods-PinCode_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCode_Example/Pods-PinCode_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinCode_Example/Pods-PinCode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD1ACF8DD51A2BCDD512C69D468D775D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447C5EFEDF6C9172466DB247873FF58C /* BiometricAuthentication.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthentication/BiometricAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthentication/BiometricAuthentication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthentication/BiometricAuthentication.modulemap";
+				PRODUCT_MODULE_NAME = BiometricAuthentication;
+				PRODUCT_NAME = BiometricAuthentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3592510BC92E7DC1E492EBB7C65698 /* Build configuration list for PBXNativeTarget "PinCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E851B2251F354BE986ED9C9FB417C58B /* Debug */,
+				9BC7FAA28B5DDC4746D395C1E80CE15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F59D1F89EE83D66EFFE811B9C035423 /* Build configuration list for PBXNativeTarget "Pods-PinCode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269AD948183BCEE0066BAE99CFD0063E /* Debug */,
+				F8B8F5C92EBA45B3568EB1C13C2393C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3AFBD5FF7CA9C91BE93170D8737D23F /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1ACF8DD51A2BCDD512C69D468D775D /* Debug */,
+				1FFDD9F9F399A8C9AE7DE2D0907787C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B779C2A67BD99DF5878A0C9D49F08EEF /* Build configuration list for PBXNativeTarget "Pods-PinCode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1286F88150C09CA403ACBD38CC2783 /* Debug */,
+				5999F3A1C9692DF9BEA53293AF0CFB99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
