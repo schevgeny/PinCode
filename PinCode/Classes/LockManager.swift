@@ -15,7 +15,7 @@ public class LockManager {
     
     static let shared: LockManager = LockManager()
     
-    var isLockFaceId: Bool {
+    public var isLockFaceId: Bool {
         get {
             return UserDefaults.standard.bool(forKey: "isLockFaceId")
         }
@@ -24,7 +24,7 @@ public class LockManager {
         }
     }
     
-    var isLockPinCode: Bool {
+    public var isLockPinCode: Bool {
         get {
             return pinLock.isLock()
         }
@@ -44,7 +44,7 @@ public class LockManager {
         }
     }
     
-    var isExpired: Bool {
+    public var isExpired: Bool {
         guard let unlockTime = unlockTime else {
             return true
         }
@@ -55,7 +55,7 @@ public class LockManager {
     var bioMetric = BioMetricAuthenticator.shared
     var pinLock = AppLocker()
     
-    func pinCreate(successAction: @escaping (()->()), failureAction: @escaping (()->())) {
+    public func pinCreate(successAction: @escaping (()->()), failureAction: @escaping (()->())) {
         
         var config = ALAppearance()
         config.onCancelAttempt = { (mode: ALMode?) in
@@ -68,7 +68,7 @@ public class LockManager {
         AppLocker.present(with: .create, and: config)
     }
     
-    func pinValidate(successAction: @escaping (()->()), failureAction: @escaping (()->())) {
+    public func pinValidate(successAction: @escaping (()->()), failureAction: @escaping (()->())) {
         
         var config = ALAppearance()
         config.onCancelAttempt = { (mode: ALMode?) in
@@ -84,7 +84,7 @@ public class LockManager {
         AppLocker.present(with: .validate, and: config)
     }
     
-    func pinDeactivate(successAction: @escaping (()->()), failureAction: @escaping (()->())){
+    public func pinDeactivate(successAction: @escaping (()->()), failureAction: @escaping (()->())){
         
         var config = ALAppearance()
         config.onCancelAttempt = { (mode: ALMode?) in
@@ -97,11 +97,11 @@ public class LockManager {
         AppLocker.present(with: .deactive, and: config)
     }
     
-    func pinChange(){
+    public func pinChange(){
         AppLocker.present(with: .change)
     }
     
-    func bioAuth(successAction: @escaping (()->()), failureAction: @escaping (()->())) {
+    public func bioAuth(successAction: @escaping (()->()), failureAction: @escaping (()->())) {
         // Set AllowableReuseDuration in seconds to bypass the authentication when user has just unlocked the device with biometric
         BioMetricAuthenticator.shared.allowableReuseDuration = 30
         
@@ -118,7 +118,7 @@ public class LockManager {
         }
     }
     
-    func disactive() {
+    public func disactive() {
         self.unlockTime = Date()
     }
     
