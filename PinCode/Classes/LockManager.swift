@@ -9,9 +9,9 @@
 import Foundation
 import BiometricAuthentication
 
-let LOCK_MANEGER = LockManager.shared
+public let LOCK_MANEGER = LockManager.shared
 
-class LockManager {
+public class LockManager {
     
     static let shared: LockManager = LockManager()
     
